@@ -1,0 +1,186 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: 'Montserrat';
+}
+
+.container {
+  max-width: 1560px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+/* header */
+.header {
+  padding-top: 20px;
+  background-color: #000000;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.header .container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.main-tittle {
+  text-align: center;
+  margin-bottom: 25px;
+  max-width: 600px;
+  margin-left: 180px;
+}
+
+.yellow_text {
+  color: yellow;
+}
+
+.nav {
+  justify-content: center;
+  align-items: center;
+}
+
+.nav__list {
+  display: flex;
+}
+
+.nav__link {
+  border: black 1px solid;
+  padding: 5px 15px;
+  text-decoration: none;
+  color: black;
+  background-color: yellow;
+}
+
+.nav__link:hover {
+  background-color: black;
+  color: white;
+  background-color: transparent;
+  transition: color .3s ease-in-out, background-color .3s ease-in-out;
+}
+
+
+/* region */
+.region {
+  margin-bottom: 45px;
+}
+
+.region__tittle {
+  text-align: center;
+  color: #696D70;
+  margin-bottom: 20px;
+}
+
+.carouserl__img {
+  width: 100%;
+  height: 400px;
+}
+
+
+/* orders */
+.orders {
+  margin-bottom: 50px;
+}
+
+.cards {
+  display: flex;
+  gap: 30px;
+}
+
+.my_card {
+  border-color: #FFCF40;
+  width: 500px;
+  transition: transform 0.4s, border ease-in-out 0.4s;
+}
+
+.my_card:hover {
+  transform: scale(1.05);
+  border: #FFCF40 5px solid;
+}
+
+.card__price {
+  font-size: 25px;
+  color: red;
+  text-align: center;
+}
+
+.card__img {
+  height: 300px;
+}
+
+.card__link {
+  cursor: pointer;
+}
+
+/* footer */
+.footer {
+  background-color: #000000;
+  color: white;
+}
+
+.footer .flex {
+  margin-left: 10px;
+  justify-content: center;
+}
+
+.footer__title {
+  font-size: 18px;
+  color: yellow;
+  margin-bottom: 15px;
+}
+
+.footer__nav {
+  padding: 40px;
+}
+
+.footer__list {
+  padding: 0;
+}
+
+.footer__item {
+  margin-bottom: 15px;
+}
+
+.footer__link {
+  text-decoration: none;
+  color: white;
+}
+
+.form__input {
+  border-radius: 0;
+}
+
+.form__textarea {
+  height: 100%;
+}
+
+.footer__form {
+  margin-bottom: 15px;
+}
+
+.form__button {
+  margin-left: 10px;
+}
