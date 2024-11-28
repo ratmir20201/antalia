@@ -5,5 +5,6 @@ from .models import Card
 
 
 class ShopIndexView(ListView):
-  model = Card
   template_name = "shopapp/index.html"
+  model = Card
+  context_object_name = "cards"
